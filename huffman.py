@@ -110,20 +110,21 @@ def huffmanSVG(values: dict[str, int]) -> None:
     offsetY = 0
     iters = -1
 
+    values.sort(reverse=True, key=lambda e: e.value)
     while len(values) > 2:
         iters += 1
         if iters % 3 != 0:
             continue
-        values.sort(reverse=True, key=lambda e: e.value)
         values = values[:-2] + [Node(values[-2], values[-1])]
+        values.sort(reverse=True, key=lambda e: e.value)
         drawing.append(draw.Line(padx, height-pady-offsetY, width-padx, height-pady-offsetY,
                        stroke='black', stroke_width=2, fill='none'))
         _drawTree(values, padx+radius, height-pady-offsetY, drawing)
         offsetY += (_depthOfTree(values)+1)*(diam+pady)
-    values.sort(reverse=True, key=lambda e: e.value)
-    drawing.append(draw.Line(padx, height-pady-offsetY, width-padx, height-pady-offsetY,
-                             stroke='black', stroke_width=2, fill='none'))
-    _drawTree(values, padx+radius, height-pady-offsetY, drawing)
+    # values.sort(reverse=True, key=lambda e: e.value)
+    # drawing.append(draw.Line(padx, height-pady-offsetY, width-padx, height-pady-offsetY,
+    #                          stroke='black', stroke_width=2, fill='none'))
+    # _drawTree(values, padx+radius, height-pady-offsetY, drawing)
     drawing.height = 2*pady+offsetY
     drawing.viewBox = (0, height-offsetY) + (width, drawing.height)
     drawing.viewBox = (drawing.viewBox[0], -drawing.viewBox[1]-drawing.viewBox[3],
