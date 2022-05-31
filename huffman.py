@@ -128,9 +128,14 @@ def huffmanSVG(values: dict[str, int]) -> None:
     drawing.viewBox = (0, height-offsetY) + (width, drawing.height)
     drawing.viewBox = (drawing.viewBox[0], -drawing.viewBox[1]-drawing.viewBox[3],
                        drawing.viewBox[2], drawing.viewBox[3])
-    # _drawTree(values,padx,pady+radius_2,drawing,0)
     drawing.setPixelScale(2)
-    drawing.saveSvg('test.svg')
+    drawing.saveSvg('huffman.svg')
+
+def mdTableHuffman(tree: list[Node]) -> str:
+    result = '|char|code|\n|-|-|\n'
+    result += '\n'.join(f'|{c}|{v}|' for c,v in traverseTree(tree).items())
+    print(result)
+
 
 
 def main():
@@ -151,6 +156,7 @@ def main():
     }
     print(traverseTree(huffman(letters)))
     huffmanSVG(letters)
+    mdTableHuffman(huffman(letters))
 
 
 if __name__ == '__main__':
