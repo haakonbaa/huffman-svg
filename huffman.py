@@ -1,4 +1,5 @@
 import copy
+import drawSvg as draw
 
 
 class Node:
@@ -31,22 +32,83 @@ class Node:
         return self.value == rhs.value
 
 
-def huffman(values: dict[str, int]):
+def huffman(values: dict[str, int]) -> list[Node]:
     values = [Node(ch, val) for ch, val in values.items()]
     while len(values) > 2:
         values.sort(reverse=True, key=lambda e: e.value)
         values = values[:-2] + [Node(values[-2], values[-1])]
-        print(values)
     values.sort(reverse=True, key=lambda e: e.value)
     return values
 
 
-def traverseTree(tree, code=''):
+def traverseTree(tree: list[Node], code: str = '') -> None:
     for i, n in enumerate(tree):
         if n.isBottomNode:
             print(n.subNodes, f'{code}{i}')
         else:
             traverseTree(n.subNodes, f'{code}{i}')
+
+
+padx = 20
+pady = 20
+radius = 15
+diam = 2*radius
+radius_2 = radius/2
+fsize = 16
+
+
+def _depthOfTree(tree: list[Node]) -> int:
+    maxdepth = 0
+    for n in tree:
+        if n.isBottomNode:
+            maxdepth = max(1, maxdepth)
+        else:
+            maxdepth = max(1+_depthOfTree(n.subNodes), maxdepth)
+    return maxdepth
+
+# returns number of nodes drawn
+
+
+def _drawTree(tree: list[Node], x: int, y: int, drawing: draw.Drawing, depth: int = 0):
+    nodesDrawn = 0
+    for i, n in enumerate(tree):
+        # calculate position of this node
+        _startx, _starty = x, y
+        _stopx, _stopy = x+(padx+diam)*nodesDrawn, y-pady-diam
+        if depth == 0:
+            _startx = x + (padx+diam)*nodesDrawn
+        # Draw subnodes before this node
+        if not n.isBottomNode:
+            nodesDrawn += _drawTree(n.subNodes, x+(padx+diam)
+                                    * nodesDrawn, y-pady-diam, drawing, depth + 1)
+        drawing.append(draw.Line(_startx, _starty, _stopx, _stopy,
+                       stroke='black', stroke_width=2, fill='none'))
+        drawing.append(draw.Circle(_stopx, _stopy, radius,
+                       fill='white', stroke='black', stroke_width=2))
+        if n.isBottomNode:
+            drawing.append(draw.Text(n.subNodes, fsize, x+(padx+diam)
+                           * nodesDrawn, y-pady-diam-fsize/2, center=True, valign=True))
+            nodesDrawn += 1
+    return nodesDrawn
+
+
+def huffmanSVG(values: dict[str, int]) -> None:
+    numNodes = len(values)
+    width = 3*padx+(diam+padx)*numNodes
+    height = 500
+    values = [Node(ch, val) for ch, val in values.items()]
+    drawing = draw.Drawing(width, height, displayInline=False)
+
+    while len(values) > 2:
+        values.sort(reverse=True, key=lambda e: e.value)
+        values = values[:-2] + [Node(values[-2], values[-1])]
+        print(values)
+        _drawTree(values, padx+radius, height-pady, drawing)
+        break
+    values.sort(reverse=True, key=lambda e: e.value)
+    # _drawTree(values,padx,pady+radius_2,drawing,0)
+    drawing.setPixelScale(2)
+    drawing.saveSvg('test.svg')
 
 
 letters = {
@@ -65,3 +127,4 @@ letters = {
     'r': 4
 }
 traverseTree(huffman(letters))
+huffmanSVG(letters)
