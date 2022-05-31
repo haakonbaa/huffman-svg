@@ -49,12 +49,12 @@ def traverseTree(tree: list[Node], code: str = '') -> None:
             traverseTree(n.subNodes, f'{code}{i}')
 
 
-padx = 20
-pady = 20
-radius = 15
+padx = 15
+pady = 15
+radius = 10
 diam = 2*radius
 radius_2 = radius/2
-fsize = 16
+fsize = 12
 
 
 def _depthOfTree(tree: list[Node]) -> int:
@@ -85,6 +85,7 @@ def _drawTree(tree: list[Node], x: int, y: int, drawing: draw.Drawing, depth: in
                        stroke='black', stroke_width=2, fill='none'))
         drawing.append(draw.Circle(_stopx, _stopy, radius,
                        fill='white', stroke='black', stroke_width=2))
+        drawing.append(draw.Text(str(n.value), fsize, (_startx+_stopx)/2+padx/4, (_starty+_stopy)/2-pady/4))
         if n.isBottomNode:
             drawing.append(draw.Text(n.subNodes, fsize, x+(padx+diam)
                            * nodesDrawn, y-pady-diam-fsize/2, center=True, valign=True))
@@ -94,18 +95,31 @@ def _drawTree(tree: list[Node], x: int, y: int, drawing: draw.Drawing, depth: in
 
 def huffmanSVG(values: dict[str, int]) -> None:
     numNodes = len(values)
-    width = 3*padx+(diam+padx)*numNodes
+    width = 2*padx+diam+(diam+padx)*(numNodes-1)
     height = 500
     values = [Node(ch, val) for ch, val in values.items()]
     drawing = draw.Drawing(width, height, displayInline=False)
+    offsetY = 0
+    iters = -1
 
     while len(values) > 2:
+        iters += 1
+        if iters % 3 != 0:
+            continue
         values.sort(reverse=True, key=lambda e: e.value)
         values = values[:-2] + [Node(values[-2], values[-1])]
-        print(values)
-        _drawTree(values, padx+radius, height-pady, drawing)
-        break
+        drawing.append(draw.Line(padx, height-pady-offsetY, width-padx, height-pady-offsetY,
+                       stroke='black', stroke_width=2, fill='none'))
+        _drawTree(values, padx+radius, height-pady-offsetY, drawing)
+        offsetY += (_depthOfTree(values)+1)*(diam+pady)
     values.sort(reverse=True, key=lambda e: e.value)
+    drawing.append(draw.Line(padx, height-pady-offsetY, width-padx, height-pady-offsetY,
+                       stroke='black', stroke_width=2, fill='none'))
+    _drawTree(values, padx+radius, height-pady-offsetY, drawing)
+    drawing.height = 2*pady+offsetY
+    drawing.viewBox = (0, height-offsetY) + (width, drawing.height)
+    drawing.viewBox = (drawing.viewBox[0], -drawing.viewBox[1]-drawing.viewBox[3],
+                        drawing.viewBox[2], drawing.viewBox[3])
     # _drawTree(values,padx,pady+radius_2,drawing,0)
     drawing.setPixelScale(2)
     drawing.saveSvg('test.svg')
