@@ -1,8 +1,24 @@
 """huffman module for finding huffman codes and generating SVGs documenting
 the taken approach."""
 
-import copy
 import drawSvg as draw
+import math
+
+class Symbols():
+    def __init__(self, symbols : dict):
+        self.symbols = symbols
+        self._sumFreq = sum(symbols.values())
+    
+    def I(self, symbol : str):
+        if symbol not in self.symbols:
+            return 0
+        return math.log2(self._sumFreq/self.symbols[symbol])
+
+    def H(self):
+        return sum(freq/self._sumFreq*self.I(s) for s,freq in self.symbols.items())
+
+    def __repr__(self):
+        return f'Symbols({self.symbols})'
 
 
 class Node:
@@ -113,7 +129,7 @@ def huffmanSVG(values: dict[str, int]) -> None:
     values.sort(reverse=True, key=lambda e: e.value)
     while len(values) > 2:
         iters += 1
-        if iters % 3 != 0:
+        if iters % 2 != 0:
             continue
         values = values[:-2] + [Node(values[-2], values[-1])]
         values.sort(reverse=True, key=lambda e: e.value)
@@ -155,6 +171,9 @@ def main():
         't': 3,
         'r': 4
     }
+    a = Symbols(letters)
+    print(a.H()) 
+
     print(traverseTree(huffman(letters)))
     huffmanSVG(letters)
     mdTableHuffman(huffman(letters))
