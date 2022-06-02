@@ -146,10 +146,10 @@ def _huffmanSVG(values: dict[str, int], filename: str, skip) -> None:
     values.sort(reverse=True, key=lambda e: e.value)
     while len(values) > 2:
         iters += 1
-        if iters % skip != 0:
-            continue
         values = values[:-2] + [Node(values[-2], values[-1])]
         values.sort(reverse=True, key=lambda e: e.value)
+        if iters % skip != 0:
+            continue
         drawing.append(drawSvg.Line(padx, height-pady-offsetY, width-padx, height-pady-offsetY,
                        stroke='black', stroke_width=2, fill='none'))
         _drawTree(values, padx+radius, height-pady-offsetY, drawing)
@@ -171,25 +171,19 @@ def _mdTableHuffman(tree: list[Node]) -> str:
 
 def main():
     letters = {
-        'a': 5,
-        'e': 4,
-        'm': 3,
-        'y': 1,
-        'n': 2,
-        'i': 4,
-        's': 3,
-        'h': 1,
-        'f': 1,
-        'z': 1,
-        'o': 2,
-        't': 3,
+        'a': 5, 'e': 4, 'm': 3,
+        'y': 1, 'n': 2, 'i': 4,
+        's': 3, 'h': 1, 'f': 1,
+        'z': 1, 'o': 2, 't': 3,
         'r': 4
     }
     a = Symbols(letters)
-    print(a.information('o'))
-    print(a.entropy())
-    print(a.huffmanCodes())
-    a.encodeSVG('huffmanTree.svg')
+    print(
+        f'Self-information of the symbol "o" is: {a.information("o"):.2f}')
+    print(f'Entropy of the set is: {a.entropy():.2f}')
+    print(f'The huffman codes are: {a.huffmanCodes()}')
+    # Encode visualization of the approach
+    a.encodeSVG('huffmanTree.svg', skip=2)
 
 
 if __name__ == '__main__':

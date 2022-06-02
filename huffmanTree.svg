@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="940" height="1950" viewBox="0 -530 470 975">
+<defs>
+</defs>
+<path d="M15,-485 L455,-485" stroke="black" stroke-width="2" fill="none" />
+<path d="M25,-485 L25,-450" stroke="black" stroke-width="2" fill="none" />
+<circle cx="25" cy="-450" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="28.75" y="-463.75" font-size="12" dy="0em">5</text>
+<text x="25" y="-444.0" font-size="12" text-anchor="middle" dy="0em">a</text>
+<path d="M60,-485 L60,-450" stroke="black" stroke-width="2" fill="none" />
+<circle cx="60" cy="-450" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="63.75" y="-463.75" font-size="12" dy="0em">4</text>
+<text x="60" y="-444.0" font-size="12" text-anchor="middle" dy="0em">e</text>
+<path d="M95,-485 L95,-450" stroke="black" stroke-width="2" fill="none" />
+<circle cx="95" cy="-450" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="98.75" y="-463.75" font-size="12" dy="0em">4</text>
+<text x="95" y="-444.0" font-size="12" text-anchor="middle" dy="0em">i</text>
+<path d="M130,-485 L130,-450" stroke="black" stroke-width="2" fill="none" />
+<circle cx="130" cy="-450" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="133.75" y="-463.75" font-size="12" dy="0em">4</text>
+<text x="130" y="-444.0" font-size="12" text-anchor="middle" dy="0em">r</text>
+<path d="M165,-485 L165,-450" stroke="black" stroke-width="2" fill="none" />
+<circle cx="165" cy="-450" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="168.75" y="-463.75" font-size="12" dy="0em">3</text>
+<text x="165" y="-444.0" font-size="12" text-anchor="middle" dy="0em">m</text>
+<path d="M200,-485 L200,-450" stroke="black" stroke-width="2" fill="none" />
+<circle cx="200" cy="-450" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="203.75" y="-463.75" font-size="12" dy="0em">3</text>
+<text x="200" y="-444.0" font-size="12" text-anchor="middle" dy="0em">s</text>
+<path d="M235,-485 L235,-450" stroke="black" stroke-width="2" fill="none" />
+<circle cx="235" cy="-450" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="238.75" y="-463.75" font-size="12" dy="0em">3</text>
+<text x="235" y="-444.0" font-size="12" text-anchor="middle" dy="0em">t</text>
+<path d="M270,-485 L270,-450" stroke="black" stroke-width="2" fill="none" />
+<circle cx="270" cy="-450" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="273.75" y="-463.75" font-size="12" dy="0em">2</text>
+<text x="270" y="-444.0" font-size="12" text-anchor="middle" dy="0em">n</text>
+<path d="M305,-485 L305,-450" stroke="black" stroke-width="2" fill="none" />
+<circle cx="305" cy="-450" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="308.75" y="-463.75" font-size="12" dy="0em">2</text>
+<text x="305" y="-444.0" font-size="12" text-anchor="middle" dy="0em">o</text>
+<path d="M340,-450 L340,-415" stroke="black" stroke-width="2" fill="none" />
+<circle cx="340" cy="-415" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="343.75" y="-428.75" font-size="12" dy="0em">1</text>
+<text x="340" y="-409.0" font-size="12" text-anchor="middle" dy="0em">f</text>
+<path d="M340,-450 L375,-415" stroke="black" stroke-width="2" fill="none" />
+<circle cx="375" cy="-415" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="361.25" y="-428.75" font-size="12" dy="0em">1</text>
+<text x="375" y="-409.0" font-size="12" text-anchor="middle" dy="0em">z</text>
+<path d="M340,-485 L340,-450" stroke="black" stroke-width="2" fill="none" />
+<circle cx="340" cy="-450" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="343.75" y="-463.75" font-size="12" dy="0em">2</text>
+<path d="M410,-485 L410,-450" stroke="black" stroke-width="2" fill="none" />
+<circle cx="410" cy="-450" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="413.75" y="-463.75" font-size="12" dy="0em">1</text>
+<text x="410" y="-444.0" font-size="12" text-anchor="middle" dy="0em">y</text>
+<path d="M445,-485 L445,-450" stroke="black" stroke-width="2" fill="none" />
+<circle cx="445" cy="-450" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="448.75" y="-463.75" font-size="12" dy="0em">1</text>
+<text x="445" y="-444.0" font-size="12" text-anchor="middle" dy="0em">h</text>
+<path d="M15,-380 L455,-380" stroke="black" stroke-width="2" fill="none" />
+<path d="M25,-380 L25,-345" stroke="black" stroke-width="2" fill="none" />
+<circle cx="25" cy="-345" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="28.75" y="-358.75" font-size="12" dy="0em">5</text>
+<text x="25" y="-339.0" font-size="12" text-anchor="middle" dy="0em">a</text>
+<path d="M60,-380 L60,-345" stroke="black" stroke-width="2" fill="none" />
+<circle cx="60" cy="-345" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="63.75" y="-358.75" font-size="12" dy="0em">4</text>
+<text x="60" y="-339.0" font-size="12" text-anchor="middle" dy="0em">e</text>
+<path d="M95,-380 L95,-345" stroke="black" stroke-width="2" fill="none" />
+<circle cx="95" cy="-345" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="98.75" y="-358.75" font-size="12" dy="0em">4</text>
+<text x="95" y="-339.0" font-size="12" text-anchor="middle" dy="0em">i</text>
+<path d="M130,-380 L130,-345" stroke="black" stroke-width="2" fill="none" />
+<circle cx="130" cy="-345" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="133.75" y="-358.75" font-size="12" dy="0em">4</text>
+<text x="130" y="-339.0" font-size="12" text-anchor="middle" dy="0em">r</text>
+<path d="M165,-310 L165,-275" stroke="black" stroke-width="2" fill="none" />
+<circle cx="165" cy="-275" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="168.75" y="-288.75" font-size="12" dy="0em">1</text>
+<text x="165" y="-269.0" font-size="12" text-anchor="middle" dy="0em">f</text>
+<path d="M165,-310 L200,-275" stroke="black" stroke-width="2" fill="none" />
+<circle cx="200" cy="-275" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="186.25" y="-288.75" font-size="12" dy="0em">1</text>
+<text x="200" y="-269.0" font-size="12" text-anchor="middle" dy="0em">z</text>
+<path d="M165,-345 L165,-310" stroke="black" stroke-width="2" fill="none" />
+<circle cx="165" cy="-310" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="168.75" y="-323.75" font-size="12" dy="0em">2</text>
+<path d="M235,-310 L235,-275" stroke="black" stroke-width="2" fill="none" />
+<circle cx="235" cy="-275" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="238.75" y="-288.75" font-size="12" dy="0em">1</text>
+<text x="235" y="-269.0" font-size="12" text-anchor="middle" dy="0em">y</text>
+<path d="M235,-310 L270,-275" stroke="black" stroke-width="2" fill="none" />
+<circle cx="270" cy="-275" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="256.25" y="-288.75" font-size="12" dy="0em">1</text>
+<text x="270" y="-269.0" font-size="12" text-anchor="middle" dy="0em">h</text>
+<path d="M165,-345 L235,-310" stroke="black" stroke-width="2" fill="none" />
+<circle cx="235" cy="-310" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="203.75" y="-323.75" font-size="12" dy="0em">2</text>
+<path d="M165,-380 L165,-345" stroke="black" stroke-width="2" fill="none" />
+<circle cx="165" cy="-345" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="168.75" y="-358.75" font-size="12" dy="0em">4</text>
+<path d="M305,-380 L305,-345" stroke="black" stroke-width="2" fill="none" />
+<circle cx="305" cy="-345" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="308.75" y="-358.75" font-size="12" dy="0em">3</text>
+<text x="305" y="-339.0" font-size="12" text-anchor="middle" dy="0em">m</text>
+<path d="M340,-380 L340,-345" stroke="black" stroke-width="2" fill="none" />
+<circle cx="340" cy="-345" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="343.75" y="-358.75" font-size="12" dy="0em">3</text>
+<text x="340" y="-339.0" font-size="12" text-anchor="middle" dy="0em">s</text>
+<path d="M375,-380 L375,-345" stroke="black" stroke-width="2" fill="none" />
+<circle cx="375" cy="-345" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="378.75" y="-358.75" font-size="12" dy="0em">3</text>
+<text x="375" y="-339.0" font-size="12" text-anchor="middle" dy="0em">t</text>
+<path d="M410,-380 L410,-345" stroke="black" stroke-width="2" fill="none" />
+<circle cx="410" cy="-345" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="413.75" y="-358.75" font-size="12" dy="0em">2</text>
+<text x="410" y="-339.0" font-size="12" text-anchor="middle" dy="0em">n</text>
+<path d="M445,-380 L445,-345" stroke="black" stroke-width="2" fill="none" />
+<circle cx="445" cy="-345" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="448.75" y="-358.75" font-size="12" dy="0em">2</text>
+<text x="445" y="-339.0" font-size="12" text-anchor="middle" dy="0em">o</text>
+<path d="M15,-240 L455,-240" stroke="black" stroke-width="2" fill="none" />
+<path d="M25,-205 L25,-170" stroke="black" stroke-width="2" fill="none" />
+<circle cx="25" cy="-170" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="28.75" y="-183.75" font-size="12" dy="0em">3</text>
+<text x="25" y="-164.0" font-size="12" text-anchor="middle" dy="0em">s</text>
+<path d="M25,-205 L60,-170" stroke="black" stroke-width="2" fill="none" />
+<circle cx="60" cy="-170" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="46.25" y="-183.75" font-size="12" dy="0em">3</text>
+<text x="60" y="-164.0" font-size="12" text-anchor="middle" dy="0em">t</text>
+<path d="M25,-240 L25,-205" stroke="black" stroke-width="2" fill="none" />
+<circle cx="25" cy="-205" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="28.75" y="-218.75" font-size="12" dy="0em">6</text>
+<path d="M95,-240 L95,-205" stroke="black" stroke-width="2" fill="none" />
+<circle cx="95" cy="-205" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="98.75" y="-218.75" font-size="12" dy="0em">5</text>
+<text x="95" y="-199.0" font-size="12" text-anchor="middle" dy="0em">a</text>
+<path d="M130,-240 L130,-205" stroke="black" stroke-width="2" fill="none" />
+<circle cx="130" cy="-205" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="133.75" y="-218.75" font-size="12" dy="0em">4</text>
+<text x="130" y="-199.0" font-size="12" text-anchor="middle" dy="0em">e</text>
+<path d="M165,-240 L165,-205" stroke="black" stroke-width="2" fill="none" />
+<circle cx="165" cy="-205" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="168.75" y="-218.75" font-size="12" dy="0em">4</text>
+<text x="165" y="-199.0" font-size="12" text-anchor="middle" dy="0em">i</text>
+<path d="M200,-240 L200,-205" stroke="black" stroke-width="2" fill="none" />
+<circle cx="200" cy="-205" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="203.75" y="-218.75" font-size="12" dy="0em">4</text>
+<text x="200" y="-199.0" font-size="12" text-anchor="middle" dy="0em">r</text>
+<path d="M235,-170 L235,-135" stroke="black" stroke-width="2" fill="none" />
+<circle cx="235" cy="-135" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="238.75" y="-148.75" font-size="12" dy="0em">1</text>
+<text x="235" y="-129.0" font-size="12" text-anchor="middle" dy="0em">f</text>
+<path d="M235,-170 L270,-135" stroke="black" stroke-width="2" fill="none" />
+<circle cx="270" cy="-135" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="256.25" y="-148.75" font-size="12" dy="0em">1</text>
+<text x="270" y="-129.0" font-size="12" text-anchor="middle" dy="0em">z</text>
+<path d="M235,-205 L235,-170" stroke="black" stroke-width="2" fill="none" />
+<circle cx="235" cy="-170" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="238.75" y="-183.75" font-size="12" dy="0em">2</text>
+<path d="M305,-170 L305,-135" stroke="black" stroke-width="2" fill="none" />
+<circle cx="305" cy="-135" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="308.75" y="-148.75" font-size="12" dy="0em">1</text>
+<text x="305" y="-129.0" font-size="12" text-anchor="middle" dy="0em">y</text>
+<path d="M305,-170 L340,-135" stroke="black" stroke-width="2" fill="none" />
+<circle cx="340" cy="-135" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="326.25" y="-148.75" font-size="12" dy="0em">1</text>
+<text x="340" y="-129.0" font-size="12" text-anchor="middle" dy="0em">h</text>
+<path d="M235,-205 L305,-170" stroke="black" stroke-width="2" fill="none" />
+<circle cx="305" cy="-170" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="273.75" y="-183.75" font-size="12" dy="0em">2</text>
+<path d="M235,-240 L235,-205" stroke="black" stroke-width="2" fill="none" />
+<circle cx="235" cy="-205" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="238.75" y="-218.75" font-size="12" dy="0em">4</text>
+<path d="M375,-205 L375,-170" stroke="black" stroke-width="2" fill="none" />
+<circle cx="375" cy="-170" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="378.75" y="-183.75" font-size="12" dy="0em">2</text>
+<text x="375" y="-164.0" font-size="12" text-anchor="middle" dy="0em">n</text>
+<path d="M375,-205 L410,-170" stroke="black" stroke-width="2" fill="none" />
+<circle cx="410" cy="-170" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="396.25" y="-183.75" font-size="12" dy="0em">2</text>
+<text x="410" y="-164.0" font-size="12" text-anchor="middle" dy="0em">o</text>
+<path d="M375,-240 L375,-205" stroke="black" stroke-width="2" fill="none" />
+<circle cx="375" cy="-205" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="378.75" y="-218.75" font-size="12" dy="0em">4</text>
+<path d="M445,-240 L445,-205" stroke="black" stroke-width="2" fill="none" />
+<circle cx="445" cy="-205" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="448.75" y="-218.75" font-size="12" dy="0em">3</text>
+<text x="445" y="-199.0" font-size="12" text-anchor="middle" dy="0em">m</text>
+<path d="M15,-100 L455,-100" stroke="black" stroke-width="2" fill="none" />
+<path d="M25,-65 L25,-30" stroke="black" stroke-width="2" fill="none" />
+<circle cx="25" cy="-30" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="28.75" y="-43.75" font-size="12" dy="0em">4</text>
+<text x="25" y="-24.0" font-size="12" text-anchor="middle" dy="0em">r</text>
+<path d="M60,5 L60,40" stroke="black" stroke-width="2" fill="none" />
+<circle cx="60" cy="40" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="63.75" y="26.25" font-size="12" dy="0em">1</text>
+<text x="60" y="46.0" font-size="12" text-anchor="middle" dy="0em">f</text>
+<path d="M60,5 L95,40" stroke="black" stroke-width="2" fill="none" />
+<circle cx="95" cy="40" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="81.25" y="26.25" font-size="12" dy="0em">1</text>
+<text x="95" y="46.0" font-size="12" text-anchor="middle" dy="0em">z</text>
+<path d="M60,-30 L60,5" stroke="black" stroke-width="2" fill="none" />
+<circle cx="60" cy="5" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="63.75" y="-8.75" font-size="12" dy="0em">2</text>
+<path d="M130,5 L130,40" stroke="black" stroke-width="2" fill="none" />
+<circle cx="130" cy="40" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="133.75" y="26.25" font-size="12" dy="0em">1</text>
+<text x="130" y="46.0" font-size="12" text-anchor="middle" dy="0em">y</text>
+<path d="M130,5 L165,40" stroke="black" stroke-width="2" fill="none" />
+<circle cx="165" cy="40" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="151.25" y="26.25" font-size="12" dy="0em">1</text>
+<text x="165" y="46.0" font-size="12" text-anchor="middle" dy="0em">h</text>
+<path d="M60,-30 L130,5" stroke="black" stroke-width="2" fill="none" />
+<circle cx="130" cy="5" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="98.75" y="-8.75" font-size="12" dy="0em">2</text>
+<path d="M25,-65 L60,-30" stroke="black" stroke-width="2" fill="none" />
+<circle cx="60" cy="-30" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="46.25" y="-43.75" font-size="12" dy="0em">4</text>
+<path d="M25,-100 L25,-65" stroke="black" stroke-width="2" fill="none" />
+<circle cx="25" cy="-65" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="28.75" y="-78.75" font-size="12" dy="0em">8</text>
+<path d="M200,-30 L200,5" stroke="black" stroke-width="2" fill="none" />
+<circle cx="200" cy="5" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="203.75" y="-8.75" font-size="12" dy="0em">2</text>
+<text x="200" y="11.0" font-size="12" text-anchor="middle" dy="0em">n</text>
+<path d="M200,-30 L235,5" stroke="black" stroke-width="2" fill="none" />
+<circle cx="235" cy="5" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="221.25" y="-8.75" font-size="12" dy="0em">2</text>
+<text x="235" y="11.0" font-size="12" text-anchor="middle" dy="0em">o</text>
+<path d="M200,-65 L200,-30" stroke="black" stroke-width="2" fill="none" />
+<circle cx="200" cy="-30" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="203.75" y="-43.75" font-size="12" dy="0em">4</text>
+<path d="M200,-65 L270,-30" stroke="black" stroke-width="2" fill="none" />
+<circle cx="270" cy="-30" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="238.75" y="-43.75" font-size="12" dy="0em">3</text>
+<text x="270" y="-24.0" font-size="12" text-anchor="middle" dy="0em">m</text>
+<path d="M200,-100 L200,-65" stroke="black" stroke-width="2" fill="none" />
+<circle cx="200" cy="-65" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="203.75" y="-78.75" font-size="12" dy="0em">7</text>
+<path d="M305,-65 L305,-30" stroke="black" stroke-width="2" fill="none" />
+<circle cx="305" cy="-30" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="308.75" y="-43.75" font-size="12" dy="0em">3</text>
+<text x="305" y="-24.0" font-size="12" text-anchor="middle" dy="0em">s</text>
+<path d="M305,-65 L340,-30" stroke="black" stroke-width="2" fill="none" />
+<circle cx="340" cy="-30" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="326.25" y="-43.75" font-size="12" dy="0em">3</text>
+<text x="340" y="-24.0" font-size="12" text-anchor="middle" dy="0em">t</text>
+<path d="M305,-100 L305,-65" stroke="black" stroke-width="2" fill="none" />
+<circle cx="305" cy="-65" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="308.75" y="-78.75" font-size="12" dy="0em">6</text>
+<path d="M375,-100 L375,-65" stroke="black" stroke-width="2" fill="none" />
+<circle cx="375" cy="-65" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="378.75" y="-78.75" font-size="12" dy="0em">5</text>
+<text x="375" y="-59.0" font-size="12" text-anchor="middle" dy="0em">a</text>
+<path d="M410,-100 L410,-65" stroke="black" stroke-width="2" fill="none" />
+<circle cx="410" cy="-65" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="413.75" y="-78.75" font-size="12" dy="0em">4</text>
+<text x="410" y="-59.0" font-size="12" text-anchor="middle" dy="0em">e</text>
+<path d="M445,-100 L445,-65" stroke="black" stroke-width="2" fill="none" />
+<circle cx="445" cy="-65" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="448.75" y="-78.75" font-size="12" dy="0em">4</text>
+<text x="445" y="-59.0" font-size="12" text-anchor="middle" dy="0em">i</text>
+<path d="M15,75 L455,75" stroke="black" stroke-width="2" fill="none" />
+<path d="M25,145 L25,180" stroke="black" stroke-width="2" fill="none" />
+<circle cx="25" cy="180" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="28.75" y="166.25" font-size="12" dy="0em">3</text>
+<text x="25" y="186.0" font-size="12" text-anchor="middle" dy="0em">s</text>
+<path d="M25,145 L60,180" stroke="black" stroke-width="2" fill="none" />
+<circle cx="60" cy="180" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="46.25" y="166.25" font-size="12" dy="0em">3</text>
+<text x="60" y="186.0" font-size="12" text-anchor="middle" dy="0em">t</text>
+<path d="M25,110 L25,145" stroke="black" stroke-width="2" fill="none" />
+<circle cx="25" cy="145" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="28.75" y="131.25" font-size="12" dy="0em">6</text>
+<path d="M25,110 L95,145" stroke="black" stroke-width="2" fill="none" />
+<circle cx="95" cy="145" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="63.75" y="131.25" font-size="12" dy="0em">5</text>
+<text x="95" y="151.0" font-size="12" text-anchor="middle" dy="0em">a</text>
+<path d="M25,75 L25,110" stroke="black" stroke-width="2" fill="none" />
+<circle cx="25" cy="110" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="28.75" y="96.25" font-size="12" dy="0em">11</text>
+<path d="M130,110 L130,145" stroke="black" stroke-width="2" fill="none" />
+<circle cx="130" cy="145" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="133.75" y="131.25" font-size="12" dy="0em">4</text>
+<text x="130" y="151.0" font-size="12" text-anchor="middle" dy="0em">r</text>
+<path d="M165,180 L165,215" stroke="black" stroke-width="2" fill="none" />
+<circle cx="165" cy="215" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="168.75" y="201.25" font-size="12" dy="0em">1</text>
+<text x="165" y="221.0" font-size="12" text-anchor="middle" dy="0em">f</text>
+<path d="M165,180 L200,215" stroke="black" stroke-width="2" fill="none" />
+<circle cx="200" cy="215" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="186.25" y="201.25" font-size="12" dy="0em">1</text>
+<text x="200" y="221.0" font-size="12" text-anchor="middle" dy="0em">z</text>
+<path d="M165,145 L165,180" stroke="black" stroke-width="2" fill="none" />
+<circle cx="165" cy="180" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="168.75" y="166.25" font-size="12" dy="0em">2</text>
+<path d="M235,180 L235,215" stroke="black" stroke-width="2" fill="none" />
+<circle cx="235" cy="215" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="238.75" y="201.25" font-size="12" dy="0em">1</text>
+<text x="235" y="221.0" font-size="12" text-anchor="middle" dy="0em">y</text>
+<path d="M235,180 L270,215" stroke="black" stroke-width="2" fill="none" />
+<circle cx="270" cy="215" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="256.25" y="201.25" font-size="12" dy="0em">1</text>
+<text x="270" y="221.0" font-size="12" text-anchor="middle" dy="0em">h</text>
+<path d="M165,145 L235,180" stroke="black" stroke-width="2" fill="none" />
+<circle cx="235" cy="180" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="203.75" y="166.25" font-size="12" dy="0em">2</text>
+<path d="M130,110 L165,145" stroke="black" stroke-width="2" fill="none" />
+<circle cx="165" cy="145" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="151.25" y="131.25" font-size="12" dy="0em">4</text>
+<path d="M130,75 L130,110" stroke="black" stroke-width="2" fill="none" />
+<circle cx="130" cy="110" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="133.75" y="96.25" font-size="12" dy="0em">8</text>
+<path d="M305,110 L305,145" stroke="black" stroke-width="2" fill="none" />
+<circle cx="305" cy="145" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="308.75" y="131.25" font-size="12" dy="0em">4</text>
+<text x="305" y="151.0" font-size="12" text-anchor="middle" dy="0em">e</text>
+<path d="M305,110 L340,145" stroke="black" stroke-width="2" fill="none" />
+<circle cx="340" cy="145" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="326.25" y="131.25" font-size="12" dy="0em">4</text>
+<text x="340" y="151.0" font-size="12" text-anchor="middle" dy="0em">i</text>
+<path d="M305,75 L305,110" stroke="black" stroke-width="2" fill="none" />
+<circle cx="305" cy="110" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="308.75" y="96.25" font-size="12" dy="0em">8</text>
+<path d="M375,145 L375,180" stroke="black" stroke-width="2" fill="none" />
+<circle cx="375" cy="180" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="378.75" y="166.25" font-size="12" dy="0em">2</text>
+<text x="375" y="186.0" font-size="12" text-anchor="middle" dy="0em">n</text>
+<path d="M375,145 L410,180" stroke="black" stroke-width="2" fill="none" />
+<circle cx="410" cy="180" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="396.25" y="166.25" font-size="12" dy="0em">2</text>
+<text x="410" y="186.0" font-size="12" text-anchor="middle" dy="0em">o</text>
+<path d="M375,110 L375,145" stroke="black" stroke-width="2" fill="none" />
+<circle cx="375" cy="145" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="378.75" y="131.25" font-size="12" dy="0em">4</text>
+<path d="M375,110 L445,145" stroke="black" stroke-width="2" fill="none" />
+<circle cx="445" cy="145" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="413.75" y="131.25" font-size="12" dy="0em">3</text>
+<text x="445" y="151.0" font-size="12" text-anchor="middle" dy="0em">m</text>
+<path d="M375,75 L375,110" stroke="black" stroke-width="2" fill="none" />
+<circle cx="375" cy="110" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="378.75" y="96.25" font-size="12" dy="0em">7</text>
+<path d="M15,250 L455,250" stroke="black" stroke-width="2" fill="none" />
+<path d="M25,355 L25,390" stroke="black" stroke-width="2" fill="none" />
+<circle cx="25" cy="390" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="28.75" y="376.25" font-size="12" dy="0em">3</text>
+<text x="25" y="396.0" font-size="12" text-anchor="middle" dy="0em">s</text>
+<path d="M25,355 L60,390" stroke="black" stroke-width="2" fill="none" />
+<circle cx="60" cy="390" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="46.25" y="376.25" font-size="12" dy="0em">3</text>
+<text x="60" y="396.0" font-size="12" text-anchor="middle" dy="0em">t</text>
+<path d="M25,320 L25,355" stroke="black" stroke-width="2" fill="none" />
+<circle cx="25" cy="355" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="28.75" y="341.25" font-size="12" dy="0em">6</text>
+<path d="M25,320 L95,355" stroke="black" stroke-width="2" fill="none" />
+<circle cx="95" cy="355" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="63.75" y="341.25" font-size="12" dy="0em">5</text>
+<text x="95" y="361.0" font-size="12" text-anchor="middle" dy="0em">a</text>
+<path d="M25,285 L25,320" stroke="black" stroke-width="2" fill="none" />
+<circle cx="25" cy="320" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="28.75" y="306.25" font-size="12" dy="0em">11</text>
+<path d="M130,320 L130,355" stroke="black" stroke-width="2" fill="none" />
+<circle cx="130" cy="355" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="133.75" y="341.25" font-size="12" dy="0em">4</text>
+<text x="130" y="361.0" font-size="12" text-anchor="middle" dy="0em">r</text>
+<path d="M165,390 L165,425" stroke="black" stroke-width="2" fill="none" />
+<circle cx="165" cy="425" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="168.75" y="411.25" font-size="12" dy="0em">1</text>
+<text x="165" y="431.0" font-size="12" text-anchor="middle" dy="0em">f</text>
+<path d="M165,390 L200,425" stroke="black" stroke-width="2" fill="none" />
+<circle cx="200" cy="425" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="186.25" y="411.25" font-size="12" dy="0em">1</text>
+<text x="200" y="431.0" font-size="12" text-anchor="middle" dy="0em">z</text>
+<path d="M165,355 L165,390" stroke="black" stroke-width="2" fill="none" />
+<circle cx="165" cy="390" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="168.75" y="376.25" font-size="12" dy="0em">2</text>
+<path d="M235,390 L235,425" stroke="black" stroke-width="2" fill="none" />
+<circle cx="235" cy="425" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="238.75" y="411.25" font-size="12" dy="0em">1</text>
+<text x="235" y="431.0" font-size="12" text-anchor="middle" dy="0em">y</text>
+<path d="M235,390 L270,425" stroke="black" stroke-width="2" fill="none" />
+<circle cx="270" cy="425" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="256.25" y="411.25" font-size="12" dy="0em">1</text>
+<text x="270" y="431.0" font-size="12" text-anchor="middle" dy="0em">h</text>
+<path d="M165,355 L235,390" stroke="black" stroke-width="2" fill="none" />
+<circle cx="235" cy="390" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="203.75" y="376.25" font-size="12" dy="0em">2</text>
+<path d="M130,320 L165,355" stroke="black" stroke-width="2" fill="none" />
+<circle cx="165" cy="355" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="151.25" y="341.25" font-size="12" dy="0em">4</text>
+<path d="M25,285 L130,320" stroke="black" stroke-width="2" fill="none" />
+<circle cx="130" cy="320" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="81.25" y="306.25" font-size="12" dy="0em">8</text>
+<path d="M25,250 L25,285" stroke="black" stroke-width="2" fill="none" />
+<circle cx="25" cy="285" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="28.75" y="271.25" font-size="12" dy="0em">19</text>
+<path d="M305,320 L305,355" stroke="black" stroke-width="2" fill="none" />
+<circle cx="305" cy="355" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="308.75" y="341.25" font-size="12" dy="0em">4</text>
+<text x="305" y="361.0" font-size="12" text-anchor="middle" dy="0em">e</text>
+<path d="M305,320 L340,355" stroke="black" stroke-width="2" fill="none" />
+<circle cx="340" cy="355" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="326.25" y="341.25" font-size="12" dy="0em">4</text>
+<text x="340" y="361.0" font-size="12" text-anchor="middle" dy="0em">i</text>
+<path d="M305,285 L305,320" stroke="black" stroke-width="2" fill="none" />
+<circle cx="305" cy="320" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="308.75" y="306.25" font-size="12" dy="0em">8</text>
+<path d="M375,355 L375,390" stroke="black" stroke-width="2" fill="none" />
+<circle cx="375" cy="390" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="378.75" y="376.25" font-size="12" dy="0em">2</text>
+<text x="375" y="396.0" font-size="12" text-anchor="middle" dy="0em">n</text>
+<path d="M375,355 L410,390" stroke="black" stroke-width="2" fill="none" />
+<circle cx="410" cy="390" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="396.25" y="376.25" font-size="12" dy="0em">2</text>
+<text x="410" y="396.0" font-size="12" text-anchor="middle" dy="0em">o</text>
+<path d="M375,320 L375,355" stroke="black" stroke-width="2" fill="none" />
+<circle cx="375" cy="355" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="378.75" y="341.25" font-size="12" dy="0em">4</text>
+<path d="M375,320 L445,355" stroke="black" stroke-width="2" fill="none" />
+<circle cx="445" cy="355" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="413.75" y="341.25" font-size="12" dy="0em">3</text>
+<text x="445" y="361.0" font-size="12" text-anchor="middle" dy="0em">m</text>
+<path d="M305,285 L375,320" stroke="black" stroke-width="2" fill="none" />
+<circle cx="375" cy="320" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="343.75" y="306.25" font-size="12" dy="0em">7</text>
+<path d="M305,250 L305,285" stroke="black" stroke-width="2" fill="none" />
+<circle cx="305" cy="285" r="10" fill="white" stroke="black" stroke-width="2" />
+<text x="308.75" y="271.25" font-size="12" dy="0em">15</text>
+</svg>
