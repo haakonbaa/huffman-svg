@@ -1,6 +1,7 @@
 *.vim
 *.vscode
 *__pycache__
+*.svg
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
