@@ -14,6 +14,8 @@ python3 -m pip install .
 See the example below for usage. The set of symbols are from [this wikipedia article.](https://en.wikipedia.org/wiki/Information_theory) 
 
 ```python
+from huffmansvg.huffmansvg import *
+
 letters = {
     'a': 5, 'e': 4, 'm': 3,
     'y': 1, 'n': 2, 'i': 4,
